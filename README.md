@@ -4,7 +4,7 @@
 
 From mam root:
 
-* `mkdir depser && cd depser`
+* `mkdir -p acme/depser && cd acme/depser`
 * `Add .gitignore`
 * `git submodule add --depth 100 https://github.com/zerkalica/yuf.git .ci/yuf`
 * `.ci/yuf/depser/depser init`
@@ -13,11 +13,15 @@ From mam root:
 
 ## Build
 
+From acme/depser directory:
+
 * `.ci/yuf/depser/depser build`
 
 Build in `./app/-`
 
 ## Update and fix deps
+
+From acme/depser directory:
 
 * `.ci/yuf/depser/depser update`
 * `git add .`

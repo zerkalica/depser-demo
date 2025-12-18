@@ -8,7 +8,7 @@ From mam root:
 * `Add .gitignore`
 * `git submodule add --depth 100 https://github.com/zerkalica/yuf.git .ci/yuf`
 * `.ci/yuf/depser/depser init`
-* `mkdir -p app && echo '$depser_app $mol_page' > app/app.view.tree`
+* `mkdir -p app && echo '$acme_depser_app $mol_page' > app/app.view.tree`
 * `git add .ci app && git commit -m 'updated deps`
 
 ## Build

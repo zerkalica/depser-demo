@@ -34,5 +34,4 @@ Build in `./app/-`
 From acme/depser directory:
 
 * `.ci/yuf/depser/depser update`
-* `git add .`
-* `git commit -m "updated deps"`
+* `git add .ci && git commit -m "updated deps"`

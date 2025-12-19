@@ -11,6 +11,13 @@ From mam root:
 * `mkdir -p app && echo '$acme_depser_app $mol_page' > app/app.view.tree`
 * `git add .ci app && git commit -m 'updated deps`
 
+## Add extra deps
+
+Example:
+
+* `.ci/yuf/depser/depser add "https://github.com/hyoo-ru/mam_hyoo.git" "hyoo"`
+* `.ci/yuf/depser/depser add "https://github.com/hyoo-ru/about.hyoo.ru.git" "hyoo-about"`
+
 ## Build
 
 From acme/depser directory:

@@ -13,10 +13,13 @@ From mam root:
 
 ## Add extra deps
 
-Example:
+From acme/depser directory:
 
 * `.ci/yuf/depser/depser add "https://github.com/hyoo-ru/mam_hyoo.git" "hyoo"`
 * `.ci/yuf/depser/depser add "https://github.com/hyoo-ru/about.hyoo.ru.git" "hyoo-about"`
+* `git add .ci && git commit -m 'updated deps`
+
+hyoo-about will be linked to hyoo/about in depser build.
 
 ## Build
 
